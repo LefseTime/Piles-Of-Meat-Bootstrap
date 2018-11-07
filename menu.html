@@ -4,11 +4,15 @@ Date created: 10-27-18
 Last modified: 11-6-18
 -->
 <html lang="en">
+
 <head>
 
     <title>Menu</title>
-    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Nosifer|Special+Elite" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+        crossorigin="anonymous">
     <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
     <style>
         body {
@@ -53,8 +57,8 @@ Last modified: 11-6-18
         }
 
         table {
-            margin-left:auto;
-            margin-right:auto;
+            margin-left: auto;
+            margin-right: auto;
             margin-bottom: 1em;
         }
 
@@ -73,79 +77,96 @@ Last modified: 11-6-18
     </header>
 
     <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="contact.html">Contact Us</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
     </nav>
 
 
-    <section id="menu">
-        <h2>Piles</h2>
-        <div id="row-1">
-            <article id="pork">
-                <h3>Pulled Pork Sandwich Pile</h3>
-                <p>A pile of pulled pork. Is there a bottom bun under there? We bet you'll never find out!</p>
-                <p>$7.99</p>
-            </article>
-            <article id="beef">
-                <h3>BBQ Beef Pile</h3>
-                <p>Just a heap of BBQ beef stacked high on a soggy paper plate. We know why you're here, and it's not
-                    appropriately solid dishware.</p>
-                <p>$8.99</p>
-            </article>
-            <article id="roast-chicken">
-                <h3>Roast Chicken Pile</h3>
-                <p>It's honestly probably the most reasonable thing here, but still a larger mound of meat than you
-                    really need.</p>
-                <p>$7.49</p>
-            </article>
-        </div>
-        <div id="row-2">
-            <article id="chicken-tartare">
-                <h3>Chicken Tartare Pile</h3>
-                <p>Is it safe? Please <a href="contact.html" id="food-safety">let us know</a> how it goes.</p>
-                <p>$10.99</p>
-            </article>
-            <article id="tofu">
-                <h3>Fried Tofu Pile ("vegan")</h3>
-                <p>A pile of fried tofu for our herbivorous friends who came to a restaurant called "Piles of Meat."</p>
-                <p>$7.49</p>
-            </article>
-            <article id="mystery">
-                <h3>Mystery Pile</h3>
-                <p>Come on, it would hardly be a good mystery if we just told you! What we <em>can</em> say is that
-                    it's not for vegetarians, the faint of heart, or the strong of gag reflex...</p>
-                <p>$0.99</p>
-            </article>
-        </div>
-        <h2>Beverages</h2>
-        <table>
-            <tr>
-            <tr>
-                <td>Root Beer</td>
-                <td>$3.00</td>
-            </tr>
-            <tr>
-                <td>Bottled Water</td>
-                <td>$1.25</td>
-            </tr>
-            <tr>
-                <td>Lemonade</td>
-                <td>$1.00</td>
-            </tr>
-            <tr>
-                <td>Iced Tea</td>
-                <td>$1.25</td>
-            </tr>
-        </table>
-    </section>
-    <div id="spacer"></div>
+        <section id="menu">
+            <h2>Piles</h2>
+            <div id="row-1">
+                <article id="pork">
+                    <h3>Pulled Pork Sandwich Pile</h3>
+                    <p>A pile of pulled pork. Is there a bottom bun under there? We bet you'll never find out!</p>
+                    <p>$7.99</p>
+                </article>
+                <article id="beef">
+                    <h3>BBQ Beef Pile</h3>
+                    <p>Just a heap of BBQ beef stacked high on a soggy paper plate. We know why you're here, and it's
+                        not
+                        appropriately solid dishware.</p>
+                    <p>$8.99</p>
+                </article>
+                <article id="roast-chicken">
+                    <h3>Roast Chicken Pile</h3>
+                    <p>It's honestly probably the most reasonable thing here, but still a larger mound of meat than you
+                        really need.</p>
+                    <p>$7.49</p>
+                </article>
+            </div>
+            <div id="row-2">
+                <article id="chicken-tartare">
+                    <h3>Chicken Tartare Pile</h3>
+                    <p>Is it safe? Please <a href="contact.html" id="food-safety">let us know</a> how it goes.</p>
+                    <p>$10.99</p>
+                </article>
+                <article id="tofu">
+                    <h3>Fried Tofu Pile ("vegan")</h3>
+                    <p>A pile of fried tofu for our herbivorous friends who came to a restaurant called "Piles of
+                        Meat."</p>
+                    <p>$7.49</p>
+                </article>
+                <article id="mystery">
+                    <h3>Mystery Pile</h3>
+                    <p>Come on, it would hardly be a good mystery if we just told you! What we <em>can</em> say is that
+                        it's not for vegetarians, the faint of heart, or the strong of gag reflex...</p>
+                    <p>$0.99</p>
+                </article>
+            </div>
+            <h2>Beverages</h2>
+            <table>
+                <tr>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>$1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                </tr>
+            </table>
+        </section>
+        <div id="spacer"></div>
 
-    <footer>
-        <p>5000 Hiawatha Ave, Minneapolis, MN, 55417</p>
-        <p>867-5309</p>
-    </footer>
+        <footer>
+            <p>5000 Hiawatha Ave, Minneapolis, MN, 55417</p>
+            <p>867-5309</p>
+        </footer>
 
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

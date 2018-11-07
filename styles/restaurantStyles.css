@@ -40,6 +40,9 @@ nav a:visited{
 nav a:active{
     text-decoration: none;
 }
+a .active {
+    background-color: orange;
+}
 
 /* COLOR PALETTE
 WHITE: rgba(255, 255, 255, 1);
