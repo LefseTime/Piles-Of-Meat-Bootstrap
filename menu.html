@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<!-- Name: Sonia Funkenbusch
+Date created: 10-27-18
+Last modified: 11-6-18
+-->
+<html lang="en">
+<head>
+
+    <title>Menu</title>
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Special+Elite" rel="stylesheet">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-color: rgba(218, 215, 205, 1);
+            color: rgba(37, 9, 2, 1);
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            text-align: center;
+            padding: 1em 0 .5em 0;
+            color: rgba(102, 0, 0, 1);
+            font-weight: bold;
+        }
+
+        #pork,
+        #beef,
+        #roast-chicken,
+        #chicken-tartare,
+        #tofu,
+        #mystery {
+            width: 30%;
+            float: left;
+            margin: .5em .5em .5em .5em;
+            padding: .5em .5em .5em .5em;
+        }
+
+        article h3 {
+            font-size: 1.5em;
+        }
+
+        #spacer {
+            clear: both
+        }
+
+        #food-safety {
+            color: rgba(102, 0, 0, 1);
+        }
+
+        #food-safety:hover {
+            font-weight: bold;
+        }
+
+        table {
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom: 1em;
+        }
+
+        td {
+            width: 20%;
+            text-align: center;
+            padding-bottom: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Piles of Meat</a></h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+
+
+    <section id="menu">
+        <h2>Piles</h2>
+        <div id="row-1">
+            <article id="pork">
+                <h3>Pulled Pork Sandwich Pile</h3>
+                <p>A pile of pulled pork. Is there a bottom bun under there? We bet you'll never find out!</p>
+                <p>$7.99</p>
+            </article>
+            <article id="beef">
+                <h3>BBQ Beef Pile</h3>
+                <p>Just a heap of BBQ beef stacked high on a soggy paper plate. We know why you're here, and it's not
+                    appropriately solid dishware.</p>
+                <p>$8.99</p>
+            </article>
+            <article id="roast-chicken">
+                <h3>Roast Chicken Pile</h3>
+                <p>It's honestly probably the most reasonable thing here, but still a larger mound of meat than you
+                    really need.</p>
+                <p>$7.49</p>
+            </article>
+        </div>
+        <div id="row-2">
+            <article id="chicken-tartare">
+                <h3>Chicken Tartare Pile</h3>
+                <p>Is it safe? Please <a href="contact.html" id="food-safety">let us know</a> how it goes.</p>
+                <p>$10.99</p>
+            </article>
+            <article id="tofu">
+                <h3>Fried Tofu Pile ("vegan")</h3>
+                <p>A pile of fried tofu for our herbivorous friends who came to a restaurant called "Piles of Meat."</p>
+                <p>$7.49</p>
+            </article>
+            <article id="mystery">
+                <h3>Mystery Pile</h3>
+                <p>Come on, it would hardly be a good mystery if we just told you! What we <em>can</em> say is that
+                    it's not for vegetarians, the faint of heart, or the strong of gag reflex...</p>
+                <p>$0.99</p>
+            </article>
+        </div>
+        <h2>Beverages</h2>
+        <table>
+            <tr>
+            <tr>
+                <td>Root Beer</td>
+                <td>$3.00</td>
+            </tr>
+            <tr>
+                <td>Bottled Water</td>
+                <td>$1.25</td>
+            </tr>
+            <tr>
+                <td>Lemonade</td>
+                <td>$1.00</td>
+            </tr>
+            <tr>
+                <td>Iced Tea</td>
+                <td>$1.25</td>
+            </tr>
+        </table>
+    </section>
+    <div id="spacer"></div>
+
+    <footer>
+        <p>5000 Hiawatha Ave, Minneapolis, MN, 55417</p>
+        <p>867-5309</p>
+    </footer>
+
+</body>
+
+</html>

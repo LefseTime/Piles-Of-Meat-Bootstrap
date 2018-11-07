@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<!-- Name: Sonia Funkenbusch
+Date created: 10-27-18
+Last modified: 11-6-18
+-->
+<html lang="en">
+
+<head>
+
+    <title>Contact Us</title>
+    <link href="styles/reset.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Nosifer|Special+Elite" rel="stylesheet">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+    <style>
+        body {
+            background-color: rgba(218, 215, 205, 1);
+            color: rgba(37, 9, 2, 1);
+        }
+        label, legend {
+            font-weight: bold;
+        }
+        input, select, fieldset {
+            margin: .5em;
+        }
+        h2 {
+            font-weight: bold;
+            font-size: 2.5em;
+            margin: 1em 0 1em 0;
+            color: rgba(102, 0, 0, 1);
+        }
+        section {
+            margin-bottom: 1em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h1><a href="index.html">Piles of Meat</a></h1>
+    </header>
+    
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    
+
+    <section style="text-align: center">
+        <h2>Contact</h2>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name"><br />
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br />
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br />
+        <label for="reason">Reason for Inquiry:</label>
+        <select id="reason" name="reason">
+            <option value="catering" selected>Catering</option>
+            <option value="party">Private Party</option>
+            <option value="feedback">Feedback</option>
+            <option value="other">Other</option>
+        </select><br />
+        <label for="info" style="vertical-align: top">Additional Information:</label>
+        <textarea id="info" name="info"></textarea><br />
+        <fieldset>
+            <legend>Have you been to the restaurant?</legend>
+            <input type="radio" id="choice1" name="questionnaire" value="no">
+            <label for="choice1">No</label>
+            <input type="radio" id="choice2" name="questionnaire" value="yes">
+            <label for="choice2">Yes</label>
+        </fieldset><br />
+        <fieldset>
+            <legend>Best days to contact you:</legend>
+            <input type="checkbox" id="monday" name="monday" value="monday">
+            <label for="monday">M</label>
+            <input type="checkbox" id="tuesday" name="tuesday" value="tuesday">
+            <label for="tuesday">T</label>
+            <input type="checkbox" id="wednesday" name="wednesday" value="wednesday">
+            <label for="wednesday">W</label>
+            <input type="checkbox" id="thursday" name="thursday" value="thursday">
+            <label for="thursday">Th</label>
+            <input type="checkbox" id="friday" name="friday" value="friday">
+            <label for="friday">F</label>
+        </fieldset><br />
+        <input type="submit" name="submit" value="Send Request">
+    </section>
+
+
+    <footer>
+        <p>5000 Hiawatha Ave, Minneapolis, MN, 55417</p>
+        <p>867-5309</p>
+    </footer>
+
+</body>
+
+</html>

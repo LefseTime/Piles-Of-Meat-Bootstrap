@@ -1,0 +1,49 @@
+body {
+    font-family: 'Special Elite', cursive;
+}
+header {
+    font-family: 'Nosifer', cursive;
+    font-size: 4em;
+    color: rgba(102, 0, 0, 1);;
+    padding: 1em;
+}
+header a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+header a:hover, active {
+    color: rgba(102, 0, 0, 1);;
+    text-decoration: none;
+}
+footer {
+    color: rgba(255, 255, 255, 1);
+    padding: .7em;
+    bottom: 0;
+}
+header, footer {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 1);
+}
+nav {
+    background-color: rgba(102, 0, 0, 1);
+    padding: 1em 0em 1em .5em;
+}
+nav a {
+    color: rgba(218, 215, 205, 1);
+}
+nav a:hover {
+    font-weight: bold;
+}
+nav a:visited{
+    color: orange;
+}
+nav a:active{
+    text-decoration: none;
+}
+
+/* COLOR PALETTE
+WHITE: rgba(255, 255, 255, 1);
+BLACK: rgba(0, 0, 0, 1);
+RED: rgba(102, 0, 0, 1);
+BEIGE: rgba(218, 215, 205, 1);
+BROWN: rgba(37, 9, 2, 1); */
